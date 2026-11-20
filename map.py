@@ -1,5 +1,5 @@
 """
-Bomberman - 3 niveles (version mejorada)
+
 
 Controles:
     Flechas / WASD ... mover
@@ -17,9 +17,6 @@ import subprocess
 import sys
 
 
-# ==========================================
-# INSTALADOR AUTOMATICO DE DEPENDENCIAS
-# ==========================================
 
 def instalar_pygame():
     """Instala pygame con pip si no esta disponible."""
@@ -58,9 +55,7 @@ instalar_pygame()
 
 import pygame  # noqa: E402
 
-# ==========================================
-# CONFIGURACION
-# ==========================================
+
 
 TAM = 50
 FILAS = 11
